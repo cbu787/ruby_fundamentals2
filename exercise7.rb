@@ -15,3 +15,6 @@ puts students.keys
 students.each_value do |value|
   puts value * 1.05
 end
+
+students.delete(:cohort2)
+puts students
