@@ -11,3 +11,7 @@ students.each do |k, v|
 end
 
 puts students.keys
+
+students.each_value do |value|
+  puts value * 1.05
+end
